@@ -17,3 +17,9 @@ __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/install-state.json
+.claude/backups/
+.claude/logs/
+.codegraph/
