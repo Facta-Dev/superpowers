@@ -1,15 +1,16 @@
-# Graph Report - .  (2026-11-22)
+# Graph Report - superpowers  (2026-11-22)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 214 files · ~201,073 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2060 nodes · 2222 edges · 236 communities (191 shown, 45 thin omitted)
+- 2062 nodes · 2223 edges · 233 communities (187 shown, 46 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 6 edges (avg confidence: 0.65)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `22f0b463`
+- Built from commit: `cd7661b3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -183,14 +184,11 @@
 - Claude Code
 - v4.3.1 (2026-02-21)
 - v3.5.0 (2025-11-23)
-- v4.1.0 (2026-01-23)
-- v3.3.1 (2025-10-28)
 - v5.0.5 (2026-03-17)
 - v5.0.3 (2026-03-15)
 - v4.3.0 (2026-02-12)
 - v6.1.1 (2026-07-02)
 - v6.4.2 (2026-09-25)
-- v3.3.0 (2025-10-28)
 - v3.2.3 (2025-10-23)
 - v3.2.2 (2025-10-21)
 - v3.2.1 (2025-10-20)
@@ -260,7 +258,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (236 total, 45 thin omitted)
+## Communities (233 total, 46 thin omitted)
 
 ### Community 0 - "Writing Skills"
 Cohesion: 0.05
@@ -275,8 +273,8 @@ Cohesion: 0.14
 Nodes (25): add_openai_agent_metadata_fixture(), assert_branch_absent(), assert_contains(), assert_current_branch(), assert_equals(), assert_file_equals(), assert_matches(), assert_not_contains() (+17 more)
 
 ### Community 3 - "Superpowers Release Notes"
-Cohesion: 0.06
-Nodes (31): Bug Fixes, Bug Fixes, Bug Fixes, Changed, Changes, Codex Fixes, Fixed, Fixes (+23 more)
+Cohesion: 0.05
+Nodes (43): Added, Breaking Changes, Bug Fixes, Bug Fixes, Bug Fixes, Bug Fixes, Changed, Changes (+35 more)
 
 ### Community 4 - "Test-Driven Development (TDD)"
 Cohesion: 0.06
@@ -914,21 +912,9 @@ Nodes (3): assert_contains(), run_opencode(), test-tools.sh script
 Cohesion: 0.67
 Nodes (3): Claude Code, Official Marketplace, Superpowers Marketplace
 
-### Community 167 - "v4.3.1 (2026-02-21)"
-Cohesion: 0.67
-Nodes (3): Added, Fixed, v4.3.1 (2026-02-21)
-
 ### Community 168 - "v3.5.0 (2025-11-23)"
 Cohesion: 0.67
 Nodes (3): Added, Changed, v3.5.0 (2025-11-23)
-
-### Community 169 - "v4.1.0 (2026-01-23)"
-Cohesion: 0.67
-Nodes (3): Breaking Changes, Fixes, v4.1.0 (2026-01-23)
-
-### Community 170 - "v3.3.1 (2025-10-28)"
-Cohesion: 0.67
-Nodes (3): Bug Fixes, Improvements, v3.3.1 (2025-10-28)
 
 ### Community 171 - "v5.0.5 (2026-03-17)"
 Cohesion: 0.67
@@ -950,10 +936,6 @@ Nodes (3): Codex, Packaging, v6.1.1 (2026-07-02)
 Cohesion: 0.67
 Nodes (3): Documentation, v6.4.2 (2026-09-25), Writing Plans
 
-### Community 176 - "v3.3.0 (2025-10-28)"
-Cohesion: 0.67
-Nodes (3): Files Added, New Features, v3.3.0 (2025-10-28)
-
 ### Community 177 - "v3.2.3 (2025-10-23)"
 Cohesion: 0.67
 Nodes (3): Files Changed, Improvements, v3.2.3 (2025-10-23)
@@ -971,19 +953,19 @@ Cohesion: 0.67
 Nodes (3): GitHub Copilot CLI Support, OpenCode Fixes, v5.0.7 (2026-03-31)
 
 ## Knowledge Gaps
-- **1211 isolated node(s):** `__dirname`, `superpowersSkillsDir`, `_bootstrapCache`, `_childSessionCache`, `extensionDir` (+1206 more)
+- **1212 isolated node(s):** `knowledge-sync.sh script`, `__dirname`, `superpowersSkillsDir`, `_bootstrapCache`, `_childSessionCache` (+1207 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **45 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **46 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Superpowers Release Notes` connect `Superpowers Release Notes` to `v5.0.6 (2026-03-24)`, `v4.0.0 (2025-12-17)`, `v4.2.0 (2026-02-05)`, `Superpowers v2.0.0 Release Notes`, `v5.0.2 (2026-03-11)`, `v7.0.1 (2026-10-21)`, `v5.0.0 (2026-03-09)`, `v3.2.0 (2025-10-18)`, `v5.0.4 (2026-03-16)`, `v6.1.0 (2026-06-30)`, `v4.3.1 (2026-02-21)`, `v3.5.0 (2025-11-23)`, `v4.1.0 (2026-01-23)`, `v3.3.1 (2025-10-28)`, `v5.0.5 (2026-03-17)`, `v5.0.3 (2026-03-15)`, `v4.3.0 (2026-02-12)`, `v6.1.1 (2026-07-02)`, `v6.4.2 (2026-09-25)`, `v3.3.0 (2025-10-28)`, `v3.2.3 (2025-10-23)`, `v3.2.2 (2025-10-21)`, `v3.2.1 (2025-10-20)`, `v5.0.7 (2026-03-31)`, `v5.1.0 (2026-04-30)`, `v6.0.0 (2026-06-16)`, `v6.4.1 (2026-09-18)`, `v7.0.2 (2026-11-03)`, `v7.0.0 (2026-10-09)`, `v6.3.0 (2026-08-12)`, `v5.0.1 (2026-03-10)`, `v3.1.0 (2025-10-17)`, `v6.2.0 (2026-07-23)`?**
-  _High betweenness centrality (0.013) - this node is a cross-community bridge._
+- **Why does `Superpowers Release Notes` connect `Superpowers Release Notes` to `v5.0.6 (2026-03-24)`, `v4.0.0 (2025-12-17)`, `v4.2.0 (2026-02-05)`, `Superpowers v2.0.0 Release Notes`, `v5.0.2 (2026-03-11)`, `v7.0.1 (2026-10-21)`, `v5.0.0 (2026-03-09)`, `v3.2.0 (2025-10-18)`, `v5.0.4 (2026-03-16)`, `v6.1.0 (2026-06-30)`, `v3.5.0 (2025-11-23)`, `v5.0.5 (2026-03-17)`, `v5.0.3 (2026-03-15)`, `v4.3.0 (2026-02-12)`, `v6.1.1 (2026-07-02)`, `v6.4.2 (2026-09-25)`, `v3.2.3 (2025-10-23)`, `v3.2.2 (2025-10-21)`, `v3.2.1 (2025-10-20)`, `v5.0.7 (2026-03-31)`, `v5.1.0 (2026-04-30)`, `v6.0.0 (2026-06-16)`, `v6.4.1 (2026-09-18)`, `v7.0.2 (2026-11-03)`, `v7.0.0 (2026-10-09)`, `v6.3.0 (2026-08-12)`, `v5.0.1 (2026-03-10)`, `v3.1.0 (2025-10-17)`, `v6.2.0 (2026-07-23)`?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **Why does `v5.1.0 (2026-04-30)` connect `v5.1.0 (2026-04-30)` to `Superpowers Release Notes`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **What connects `Locate the stock skills/ tree for either supported install layout.      - git-cl`, `Return a flat ``key: value`` scalar from a SKILL.md frontmatter block.      Herm`, `__dirname` to the rest of the system?**
-  _1219 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `knowledge-sync.sh script`, `Locate the stock skills/ tree for either supported install layout.      - git-cl`, `Return a flat ``key: value`` scalar from a SKILL.md frontmatter block.      Herm` to the rest of the system?**
+  _1220 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Writing Skills` be split into smaller, more focused modules?**
   _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
 - **Should `Worktree Rototill: Detect-and-Defer` be split into smaller, more focused modules?**
@@ -991,4 +973,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `test-sync-to-codex-plugin.sh` be split into smaller, more focused modules?**
   _Cohesion score 0.14204545454545456 - nodes in this community are weakly interconnected._
 - **Should `Superpowers Release Notes` be split into smaller, more focused modules?**
-  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.046511627906976744 - nodes in this community are weakly interconnected._

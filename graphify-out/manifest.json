@@ -550,8 +550,8 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1795368535.0329604,
-    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "mtime": 1795370995.1111667,
+    "ast_hash": "9966d6dc412037aa92f0a6ef945d42f8",
     "semantic_hash": ""
   },
   "CODE_OF_CONDUCT.md": {
@@ -1147,6 +1147,11 @@
   "assets/superpowers-small.svg": {
     "mtime": 1794269704.0684419,
     "ast_hash": "8c39dc35e79dce44358f7602116c33d5",
+    "semantic_hash": ""
+  },
+  "scripts/hooks/knowledge-sync.sh": {
+    "mtime": 1795371358.7636547,
+    "ast_hash": "9ca00e28188fb9c5572dc760186d988a",
     "semantic_hash": ""
   }
 }
